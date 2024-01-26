@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use App\QuizApplication;
+use App\Quizzes\QuizLister;
+use App\Quizzes\QuizLoader;
+use App\Quizzes\QuizRunner;
+use App\Results\ResultCalculator;
+use App\Results\ResultPresenter;
+
+const QUIZ_FILES = __DIR__ . '/../quiz_files/';
+
+$quizApp = new QuizApplication(
+    new QuizLoader(QUIZ_FILES),
+    new QuizLister(),
+    new ResultCalculator(),
+    new ResultPresenter(),
+    new QuizRunner(),
+);
+
+$quizApp->run();

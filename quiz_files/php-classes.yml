@@ -1,0 +1,95 @@
+title: "PHP Classes"
+level: "Hard"
+categories:
+  - "programming"
+  - "php"
+questions:
+  - inquiry: "What is the purpose of the __construct method in PHP?"
+    multi: false
+    answers:
+      - "@To initialize object properties and perform setup tasks"
+      - "To create a new object instance"
+      - "To define the class constructor"
+      - "To destroy the object"
+      - "To extend the class"
+
+  - inquiry: "What is the visibility keyword used for in PHP class properties or methods?"
+    multi: false
+    answers:
+      - "To specify the data type of the property or method"
+      - "To indicate whether the property or method is static"
+      - "To set the default value of the property or method"
+      - "@To control the access level of the property or method"
+      - "To mark the property or method as final"
+
+  - inquiry: "In PHP, what does the static keyword indicate in the context of class properties and methods?"
+    multi: false
+    answers:
+      - "To make the property or method available only to the class itself"
+      - "To prevent the property or method from being overridden"
+      - "To enable late static binding"
+      - "@To access the property or method without creating an instance of the class"
+      - "To enforce the property or method to be abstract"
+
+  - inquiry: "What is the purpose of the instanceof operator in PHP?"
+    multi: true
+    answers:
+      - "To check if a variable is defined"
+      - "@To check if an object is an instance of a particular class or interface"
+      - "To determine the data type of a variable"
+      - "To compare two objects for equality"
+      - "@To check if a class has a specific method"
+
+  - inquiry: "In PHP, what does the magic method __get() used for?"
+    multi: true
+    answers:
+      - "@To intercept attempts to access undefined properties"
+      - "To retrieve the value of a private property"
+      - "To set the value of a property dynamically"
+      - "To create a new instance of the class"
+      - "To call a method dynamically"
+
+  - inquiry: "How can you prevent a class from being extended in PHP?"
+    multi: false
+    answers:
+      - "By marking the class as final"
+      - "@By declaring the class constructor as private"
+      - "By using the abstract keyword"
+      - "By defining all methods as private"
+      - "By using the sealed keyword"
+
+  - inquiry: "What is the purpose of the final keyword in the context of PHP class methods?"
+    multi: true
+    answers:
+      - "To prevent the method from being called"
+      - "@To prevent the method from being overridden in a subclass"
+      - "To indicate that the method must be called in every subclass"
+      - "To enforce the method to be abstract"
+      - "@To mark the method as static"
+
+  - inquiry: "What is the purpose of the trait keyword in PHP?"
+    multi: true
+    answers:
+      - "To define a new class"
+      - "To implement an interface"
+      - "To declare an abstract class"
+      - "@To reuse a set of methods in multiple classes"
+      - "To instantiate an object"
+
+  - inquiry: "What is the purpose of the self keyword in PHP?"
+    multi: false
+    answers:
+      - "To reference the parent class"
+      - "To refer to the current object"
+      - "To access the superclass methods"
+      - "@To refer to the current class within the class itself"
+      - "To access the static properties of a class"
+
+  - inquiry: "In PHP, what is the purpose of the abstract keyword in class definition?"
+    multi: true
+    answers:
+      - "To mark the class as final"
+      - "To indicate that the class cannot have any abstract methods"
+      - "To enforce the class to be instantiated"
+      - "To allow only one instance of the class"
+      - "@To define a blueprint for other classes to inherit from"

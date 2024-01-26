@@ -1,0 +1,112 @@
+title: "Programming Fundamentals"
+level: "Hard"
+categories:
+  - "programming"
+questions:
+  - inquiry: "What does the acronym HTML stand for?"
+    multi: true
+    answers:
+      - "@Hypertext Markup Language"
+      - "@Hyperlink and Text Markup Language"
+      - "@High-Level Text Markup Language"
+      - "Hyper Transfer Markup Language"
+      - "Hyperlink Text Management Language"
+
+  - inquiry: "Which of the following is not a programming language?"
+    multi: false
+    answers:
+      - "Python"
+      - "Java"
+      - "@HTML"
+      - "Ruby"
+      - "Swift"
+
+  - inquiry: "What is the purpose of the \"git clone\" command in Git?"
+    multi: false
+    answers:
+      - "To create a new branch"
+      - "To delete a repository"
+      - "@To copy a repository from a remote server"
+      - "To merge branches"
+      - "To rename a repository"
+
+  - inquiry: "What does the term \"API\" stand for?"
+    multi: true
+    answers:
+      - "Advanced Programming Interface"
+      - "@Application Programming Interface"
+      - "Advanced Protocol Integration"
+      - "@Application Protocol Interface"
+      - "Automated Programming Interface"
+
+  - inquiry: "In object-oriented programming, what is encapsulation?"
+    multi: false
+    answers:
+      - "The process of converting code into machine language"
+      - "@The bundling of data and methods that operate on the data"
+      - "The process of converting high-level programming code into assembly language"
+      - "The creation of objects based on predefined classes"
+      - "The process of optimizing code for better performance"
+
+  - inquiry: "Which data structure follows the Last In, First Out (LIFO) principle?"
+    multi: false
+    answers:
+      - "Queue"
+      - "@Stack"
+      - "Linked List"
+      - "Tree"
+      - "Array"
+
+  - inquiry: "What is the purpose of the SQL SELECT statement?"
+    multi: false
+    answers:
+      - "To delete records from a database"
+      - "To update records in a database"
+      - "To insert new records into a database"
+      - "@To retrieve data from a database"
+      - "To create a new database"
+
+  - inquiry: "What is the purpose of the \"super\" keyword in Java?"
+    multi: false
+    answers:
+      - "To reference the superclass in inheritance"
+      - "@To invoke the superclass constructor"
+      - "@To access the superclass methods and fields"
+      - "To create an instance of the superclass"
+      - "To check if a class is a superclass"
+
+  - inquiry: "What is the time complexity of a binary search algorithm?"
+    multi: false
+    answers:
+      - "O(1)"
+      - "O(n)"
+      - "@O(log n)"
+      - "O(n^2)"
+      - "O(2^n)"
+
+  - inquiry: "Which programming paradigm emphasizes immutability and functional purity?"
+    multi: false
+    answers:
+      - "Procedural programming"
+      - "Object-oriented programming"
+      - "@Functional programming"
+      - "Declarative programming"
+      - "Event-driven programming"
+
+  - inquiry: "What is the purpose of the \"volatile\" keyword in Java?"
+    multi: false
+    answers:
+      - "@To indicate that a variable's value may be changed by multiple threads"
+      - "To prevent a variable from being modified"
+      - "To declare a variable as constant"
+      - "To optimize the performance of a loop"
+      - "To specify the visibility of a variable"
+
+  - inquiry: "In networking, what does the acronym TCP/IP stand for?"
+    multi: true
+    answers:
+      - "@Transmission Control Protocol/Internet Protocol"
+      - "Technical Control Protocol/Information Protocol"
+      - "Total Control Protocol/Information Processing"
+      - "Telecommunication Control Protocol/Internet Processing"
+      - "Technical Communication Protocol/Internet Processing"

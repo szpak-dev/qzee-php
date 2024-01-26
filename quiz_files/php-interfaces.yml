@@ -1,0 +1,95 @@
+title: "PHP Interfaces"
+level: "Hard"
+categories:
+  - "programming"
+  - "php"
+questions:
+  - inquiry: "What is the purpose of a PHP interface?"
+    multi: false
+    answers:
+      - "@To define a contract for classes to implement"
+      - "To create instances of objects"
+      - "To store data in a structured format"
+      - "To handle exceptions"
+      - "To declare constants"
+
+  - inquiry: "How do you declare an interface in PHP?"
+    multi: false
+    answers:
+      - "interface MyClass { }"
+      - "abstract interface MyClass { }"
+      - "class interface MyClass { }"
+      - "@interface MyClass { }"
+      - "new interface MyClass { }"
+
+  - inquiry: "Can a PHP class implement multiple interfaces?"
+    multi: false
+    answers:
+      - "No, a class can only implement one interface"
+      - "Yes, but only if the interfaces have the same name"
+      - "@Yes, a class can implement multiple interfaces"
+      - "Yes, but only if the interfaces are in the same namespace"
+      - "It depends on the PHP version"
+
+  - inquiry: "What keyword is used to implement an interface in a PHP class?"
+    multi: false
+    answers:
+      - "@implements"
+      - "extends"
+      - "uses"
+      - "implements_interface"
+      - "interface"
+
+  - inquiry: "In PHP, can an interface have properties?"
+    multi: false
+    answers:
+      - "@No, interfaces cannot have properties"
+      - "Yes, but only public properties are allowed"
+      - "Yes, and properties can have any visibility"
+      - "No, properties in interfaces must be static"
+      - "It depends on the PHP version"
+
+  - inquiry: "What is the purpose of the `default` keyword in PHP interface methods?"
+    multi: false
+    answers:
+      - "To indicate that the method is optional"
+      - "To specify the default value of a method parameter"
+      - "To enforce a default implementation for the method"
+      - "@There is no `default` keyword in PHP interface methods"
+      - "To declare the method as a default constructor"
+
+  - inquiry: "Can a PHP interface extend another interface?"
+    multi: true
+    answers:
+      - "@Yes, an interface can extend multiple interfaces"
+      - "No, interfaces cannot extend other interfaces"
+      - "@Yes, an interface can extend one or more interfaces"
+      - "Yes, but only if the extended interface has the same name"
+      - "It depends on the PHP version"
+
+  - inquiry: "What happens if a PHP class claims to implement an interface but does not implement all its methods?"
+    multi: false
+    answers:
+      - "The class will throw a syntax error"
+      - "The class will automatically inherit the missing methods"
+      - "@The class must be declared as abstract"
+      - "PHP will ignore the missing methods"
+      - "It depends on the PHP version"
+
+  - inquiry: "Which of the following statements about PHP interfaces is correct?"
+    multi: true
+    answers:
+      - "@An interface can declare both method signatures and constants"
+      - "@A class implementing an interface must provide implementations for all interface methods"
+      - "Interfaces can have constructors"
+      - "Interfaces can be instantiated"
+      - "An interface can extend a class"
+
+  - inquiry: "In PHP, can an interface have private methods?"
+    multi: false
+    answers:
+      - "No, interfaces can only have public methods"
+      - "@No, interfaces cannot have private or protected methods"
+      - "Yes, but private methods must have a default implementation"
+      - "Yes, an interface can have any type of method"
+      - "It depends on the PHP version"

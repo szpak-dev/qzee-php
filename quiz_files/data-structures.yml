@@ -1,0 +1,131 @@
+title: "Data Structures"
+level: "Easy"
+categories:
+  - "programming"
+  - "data structures"
+questions:
+  - inquiry: "What is an array in programming?"
+    multi: true
+    answers:
+      - "@A collection of elements with each identified by an index or a key"
+      - "@A single variable"
+      - "@A way to represent hierarchical relationships"
+      - "A loop structure"
+      - "A database table"
+
+  - inquiry: "What is a linked list?"
+    multi: true
+    answers:
+      - "@A data structure consisting of nodes where each node points to the next node in the sequence"
+      - "@An ordered collection of elements with a fixed size"
+      - "A way to represent hierarchical relationships"
+      - "A type of array"
+      - "A sorting algorithm"
+
+  - inquiry: "Which of the following is an example of a linear data structure?"
+    multi: false
+    answers:
+      - "Binary Tree"
+      - "Graph"
+      - "@Array"
+      - "Hash Table"
+      - "Stack"
+
+  - inquiry: "What is the purpose of a stack in programming?"
+    multi: false
+    answers:
+      - "To store data in a key-value pair"
+      - "@To maintain a last-in, first-out (LIFO) order of elements"
+      - "To perform sorting of elements"
+      - "To organize data in a two-dimensional structure"
+      - "To represent relationships between entities"
+
+  - inquiry: "How does a queue data structure work?"
+    multi: false
+    answers:
+      - "It follows a last-in, first-out (LIFO) order"
+      - "It stores elements in a random order"
+      - "It is used for searching elements"
+      - "@It follows a first-in, first-out (FIFO) order"
+      - "It is primarily used for sorting"
+
+  - inquiry: "What is the purpose of a hash table?"
+    multi: true
+    answers:
+      - "@To efficiently store and retrieve key-value pairs"
+      - "@To provide constant-time average complexity for search, insert, and delete operations"
+      - "To perform mathematical operations"
+      - "To represent hierarchical relationships"
+      - "To organize data in a linear structure"
+
+  - inquiry: "Which of the following is an example of a non-linear data structure?"
+    multi: false
+    answers:
+      - "Array"
+      - "Linked List"
+      - "Queue"
+      - "@Binary Tree"
+      - "Hash Table"
+
+  - inquiry: "What is the primary purpose of a binary tree?"
+    multi: true
+    answers:
+      - "@To represent hierarchical relationships in a tree structure"
+      - "@To efficiently search, insert, and delete elements"
+      - "To maintain a last-in, first-out (LIFO) order"
+      - "To organize elements in a linear structure"
+      - "To perform mathematical operations"
+
+  - inquiry: "What is the significance of the term 'heap' in data structures?"
+    multi: false
+    answers:
+      - "It refers to a pile of elements with no specific order"
+      - "It is another term for a stack data structure"
+      - "@It is a specialized tree-based data structure that satisfies the heap property"
+      - "It represents a sequence of elements with a fixed size"
+      - "It is used for searching elements"
+
+  - inquiry: "In the context of data structures, what is traversal?"
+    multi: false
+    answers:
+      - "It refers to searching for an element in a data structure"
+      - "It is the process of sorting elements in ascending order"
+      - "@It is the process of visiting and processing each node in a data structure"
+      - "It is a method for deleting elements from a linked list"
+      - "It is the process of organizing elements in a linear structure"
+
+  - inquiry: "What is the primary purpose of a graph data structure?"
+    multi: true
+    answers:
+      - "@To represent relationships between nodes in a network"
+      - "@To model connections between various entities"
+      - "@To solve problems involving paths and connectivity"
+      - "To organize elements in a linear structure"
+      - "To maintain a last-in, first-out (LIFO) order"
+
+  - inquiry: "What is the difference between a stack and a queue?"
+    multi: false
+    answers:
+      - "A stack follows a first-in, first-out (FIFO) order, while a queue follows a last-in, first-out (LIFO) order"
+      - "@A stack follows a last-in, first-out (LIFO) order, while a queue follows a first-in, first-out (FIFO) order"
+      - "There is no difference; the terms are used interchangeably"
+      - "A stack is a linear data structure, while a queue is a non-linear data structure"
+      - "A stack is used for searching, while a queue is used for sorting"
+
+  - inquiry: "What is the purpose of a doubly linked list?"
+    multi: false
+    answers:
+      - "To represent hierarchical relationships"
+      - "To provide constant-time average complexity for search, insert, and delete operations"
+      - "To efficiently store key-value pairs"
+      - "@To allow traversal in both forward and backward directions"
+      - "To organize elements in a linear structure"
+
+  - inquiry: "Which of the following is an example of an abstract data type (ADT)?"
+    multi: false
+    answers:
+      - "Binary Tree"
+      - "Hash Table"
+      - "Linked List"
+      - "Queue"
+      - "@Stack"

@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  qzee:
+    image: sineverba/php8xc:latest
+    environment:
+      XDEBUG_MODE: "off"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: [ "tail", "-f", "/dev/null" ]
+    stdin_open: true
+    tty: true

@@ -1,0 +1,80 @@
+title: "Docker Basics"
+level: "Medium"
+categories:
+  - "technology"
+  - "docker"
+questions:
+  - inquiry: "What is Docker?"
+    multi: false
+    answers:
+      - "@A containerization platform"
+      - "A version control system"
+      - "A cloud computing platform"
+
+  - inquiry: "Which command is used to build a Docker image from a Dockerfile?"
+    multi: false
+    answers:
+      - "docker build"
+      - "docker create"
+      - "@docker build"
+
+  - inquiry: "What is the purpose of a Docker container?"
+    multi: false
+    answers:
+      - "To store and manage source code"
+      - "To create virtual machines"
+      - "@To package and run applications and their dependencies in an isolated environment"
+
+  - inquiry: "Which of the following commands is used to run a Docker container?"
+    multi: true
+    answers:
+      - "docker build"
+      - "docker create"
+      - "docker stop"
+      - "@docker run"
+
+  - inquiry: "What is a Dockerfile used for?"
+    multi: true
+    answers:
+      - "To execute commands inside a running container"
+      - "@To define the steps to create a Docker image"
+      - "To manage Docker volumes"
+
+  - inquiry: "How can you expose a port in a Docker container?"
+    multi: true
+    answers:
+      - "By configuring the host machine's firewall"
+      - "By using a VPN"
+      - "By creating a new Docker network"
+      - "@By using the -p or --publish flag with the docker run command"
+
+  - inquiry: "What is the purpose of the Docker Compose tool?"
+    multi: true
+    answers:
+      - "To build Docker images"
+      - "To create Docker containers"
+      - "To manage Docker networks"
+      - "@To define and run multi-container Docker applications"
+
+  - inquiry: "How can you remove all stopped Docker containers?"
+    multi: true
+    answers:
+      - "docker kill"
+      - "@docker container prune"
+      - "@docker rm -f"
+
+  - inquiry: "What is the primary advantage of using Docker containers for application deployment?"
+    multi: true
+    answers:
+      - "Better hardware utilization"
+      - "Faster application development"
+      - "@More efficient memory management"
+      - "@Consistent deployment across different environments"
+
+  - inquiry: "Which Docker command is used to view the logs of a running container?"
+    multi: true
+    answers:
+      - "docker info"
+      - "docker status"
+      - "docker log"
+      - "@docker logs"

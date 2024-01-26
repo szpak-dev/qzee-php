@@ -1,0 +1,61 @@
+title: Programming Concepts
+level: Hard
+categories:
+  - programming
+  - concepts
+questions:
+  - inquiry: "What is the purpose of a constructor in OOP?"
+    multi: true
+    answers:
+      - "@Initialization of object"
+      - "Memory deallocation"
+      - "File I/O operations"
+      - "@Exception handling"
+
+  - inquiry: "What is the difference between `==` and `===` in PHP?"
+    multi: true
+    answers:
+      - "@Equality and type equality"
+      - "@Logical AND and OR"
+      - "Assignment and arithmetic"
+      - "Bitwise XOR and XAND"
+
+  - inquiry: "What is a closure in JavaScript?"
+    multi: true
+    answers:
+      - "@A function with access to its own scope, even after the scope has closed"
+      - "A method for closing browser windows"
+      - "A type of loop construct"
+      - "A form of database query"
+
+  - inquiry: "What does SQL stand for?"
+    multi: false
+    answers:
+      - "Simple Query Language"
+      - "Structured Question Language"
+      - "@Structured Query Language"
+      - "Systematic Question Language"
+
+  - inquiry: "What is the purpose of version control systems like Git?"
+    multi: false
+    answers:
+      - "File encryption"
+      - "Video streaming"
+      - "Social networking"
+      - "@Tracking changes in source code"
+
+  - inquiry: "In Python, what is the purpose of the `__init__` method in a class?"
+    multi: true
+    answers:
+      - "@Object initialization"
+      - "@Method overloading"
+      - "Constructor method"
+      - "Class inheritance"
+
+  - inquiry: "What is the primary use of the `git clone` command?"
+    multi: false
+    answers:
+      - "Creating a new repository"
+      - "@Copying an existing repository"
+      - "Deleting a repository"
+      - "Renaming a repository"

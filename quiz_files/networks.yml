@@ -1,0 +1,176 @@
+title: "Networks"
+level: "Medium"
+categories:
+  - "technology"
+  - "networks"
+questions:
+  - inquiry: "What does TCP stand for in networking?"
+    multi: false
+    answers:
+      - "Transmission Control Protocol"
+      - "@Transport Control Protocol"
+      - "Transfer Control Protocol"
+      - "Technical Control Protocol"
+      - "Telecommunication Control Protocol"
+
+  - inquiry: "Which of the following is an example of a networking protocol used for email transmission?"
+    multi: false
+    answers:
+      - "@SMTP (Simple Mail Transfer Protocol)"
+      - "FTP (File Transfer Protocol)"
+      - "HTTP (Hypertext Transfer Protocol)"
+      - "DNS (Domain Name System)"
+      - "SNMP (Simple Network Management Protocol)"
+
+  - inquiry: "What is the purpose of the OSI model in networking?"
+    multi: false
+    answers:
+      - "To describe the interaction between hardware and software components"
+      - "To define the physical layout of network cables"
+      - "@To provide a conceptual framework for understanding network functions and communication"
+      - "To specify the electrical characteristics of network devices"
+      - "To manage the security of network connections"
+
+  - inquiry: "Which network device operates at Layer 2 of the OSI model and filters traffic based on MAC addresses?"
+    multi: false
+    answers:
+      - "Router"
+      - "@Switch"
+      - "Hub"
+      - "Bridge"
+      - "Gateway"
+
+  - inquiry: "What is the primary purpose of the DNS (Domain Name System) in networking?"
+    multi: false
+    answers:
+      - "To encrypt data transmission"
+      - "To manage network resources"
+      - "To control access to network devices"
+      - "To define the format of network packets"
+      - "@To translate human-readable domain names into IP addresses"
+
+  - inquiry: "Which networking device is used to connect multiple network segments and operates at Layer 2 of the OSI model?"
+    multi: false
+    answers:
+      - "Router"
+      - "Hub"
+      - "@Bridge"
+      - "Switch"
+      - "Gateway"
+
+  - inquiry: "In networking, what is the purpose of ARP (Address Resolution Protocol)?"
+    multi: false
+    answers:
+      - "To assign IP addresses to devices on a network"
+      - "To translate domain names into IP addresses"
+      - "To manage routing tables"
+      - "To encrypt data during transmission"
+      - "@To map IP addresses to MAC addresses on a local network"
+
+  - inquiry: "Which of the following is a valid IPv6 address format?"
+    multi: false
+    answers:
+      - "192.168.1.1"
+      - "255.255.255.0"
+      - "2001:db8::1"
+      - "@2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+      - "fe80::1"
+
+  - inquiry: "What is the purpose of NAT (Network Address Translation) in networking?"
+    multi: false
+    answers:
+      - "@To allow multiple devices on a private network to share a single public IP address"
+      - "To encrypt data for secure transmission"
+      - "To manage network routing tables"
+      - "To filter incoming and outgoing network traffic"
+      - "To translate MAC addresses into IP addresses"
+
+  - inquiry: "Which network topology connects all devices in a linear sequence, and if one device fails, the entire network is affected?"
+    multi: false
+    answers:
+      - "Bus"
+      - "Ring"
+      - "Mesh"
+      - "Star"
+      - "@Linear"
+
+  - inquiry: "What is the function of a firewall in networking?"
+    multi: true
+    answers:
+      - "@To monitor and control incoming and outgoing network traffic"
+      - "@To establish a barrier between a trusted internal network and untrusted external networks"
+      - "To physically connect multiple network segments"
+      - "To translate IP addresses"
+      - "To manage domain name assignments"
+
+  - inquiry: "Which protocol is commonly used for secure communication over the internet, providing encrypted data transmission?"
+    multi: false
+    answers:
+      - "HTTP"
+      - "FTP"
+      - "@HTTPS"
+      - "SMTP"
+      - "DNS"
+
+  - inquiry: "What is the primary function of a router in a network?"
+    multi: true
+    answers:
+      - "@To forward data packets between different networks"
+      - "@To determine the best path for data transmission"
+      - "To filter network traffic based on IP addresses"
+      - "To connect multiple devices within a local network"
+      - "To manage domain name assignments"
+
+  - inquiry: "Which networking device operates at Layer 1 of the OSI model and regenerates signals to extend the distance of a network?"
+    multi: false
+    answers:
+      - "Switch"
+      - "@Repeater"
+      - "Bridge"
+      - "Router"
+      - "Gateway"
+
+  - inquiry: "In networking, what is the purpose of DHCP (Dynamic Host Configuration Protocol)?"
+    multi: false
+    answers:
+      - "@To automatically assign IP addresses to devices on a network"
+      - "To translate domain names into IP addresses"
+      - "To manage network routing tables"
+      - "To encrypt data during transmission"
+      - "To map IP addresses to MAC addresses on a local network"
+
+  - inquiry: "What is the role of a proxy server in networking?"
+    multi: false
+    answers:
+      - "To filter network traffic based on MAC addresses"
+      - "To manage routing tables"
+      - "To encrypt data for secure transmission"
+      - "@To act as an intermediary between clients and servers, forwarding requests on behalf of clients"
+      - "To assign IP addresses to devices on a network"
+
+  - inquiry: "Which of the following is a valid IPv4 address format?"
+    multi: false
+    answers:
+      - "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+      - "fe80::1"
+      - "@192.168.1.1"
+      - "2001:db8::1"
+      - "255.255.255.0"
+
+  - inquiry: "What is the purpose of ICMP (Internet Control Message Protocol) in networking?"
+    multi: false
+    answers:
+      - "To establish secure communication channels"
+      - "To manage network resources"
+      - "To encrypt data for transmission"
+      - "@To provide error reporting and diagnostics functions"
+      - "To translate domain names into IP addresses"
+
+  - inquiry: "Which networking device operates at Layer 4 of the OSI model and filters traffic based on IP addresses and port numbers?"
+    multi: false
+    answers:
+      - "Switch"
+      - "Hub"
+      - "Router"
+      - "@Firewall"
+      - "Repeater"

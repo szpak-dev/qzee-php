@@ -1,0 +1,21 @@
+{
+  "name": "szpak-dev/qzee",
+  "description": "Your Quiz Application",
+  "require": {
+    "symfony/console": "^6.0",
+    "symfony/finder": "^6.0",
+    "symfony/yaml": "^6.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "classmap": [
+      "bin/"
+    ]
+  }
+}

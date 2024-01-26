@@ -1,0 +1,61 @@
+title: General Knowledge
+level: Medium
+categories:
+  - knowledge
+  - general
+questions:
+  - inquiry: "What is the capital of France?"
+    multi: false
+    answers:
+      - "Berlin"
+      - "@Paris"
+      - "Rome"
+      - "Madrid"
+
+  - inquiry: "How many continents are there on Earth?"
+    multi: false
+    answers:
+      - "@Seven"
+      - "Nine"
+      - "Five"
+      - "Twelve"
+
+  - inquiry: "Who wrote \"Romeo and Juliet\"?"
+    multi: false
+    answers:
+      - "Charles Dickens"
+      - "Jane Austen"
+      - "William Shakespeare"
+      - "@William Shakespeare"
+
+  - inquiry: "Which planet is known as the Red Planet?"
+    multi: false
+    answers:
+      - "Venus"
+      - "Mars"
+      - "@Jupiter"
+      - "Saturn"
+
+  - inquiry: "What is the largest mammal on Earth?"
+    multi: false
+    answers:
+      - "Elephant"
+      - "@Blue Whale"
+      - "Giraffe"
+      - "Dolphin"
+
+  - inquiry: "What is the currency of Japan?"
+    multi: false
+    answers:
+      - "@Yen"
+      - "Won"
+      - "Ringgit"
+      - "Baht"
+
+  - inquiry: "Who painted the Mona Lisa?"
+    multi: false
+    answers:
+      - "Vincent van Gogh"
+      - "Pablo Picasso"
+      - "@Leonardo da Vinci"
+      - "Claude Monet"
