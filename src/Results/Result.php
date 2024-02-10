@@ -10,7 +10,6 @@ readonly class Result
         private string $question,
         private array $userAnswer,
         private array $correctAnswer,
-        private bool $result,
     ) {
     }
 
@@ -29,8 +28,18 @@ readonly class Result
         return $this->correctAnswer;
     }
 
-    public function isCorrect(): bool
+    public function isAnswerCorrect(): bool
     {
-        return $this->result;
+        $userAnswer = $this->getUserAnswer();
+        $correctAnswer = $this->getCorrectAnswer();
+
+        if (is_array($this->userAnswer)) {
+            sort($userAnswer);
+            sort($correctAnswer);
+
+            return $this->userAnswer === $this->correctAnswer;
+        }
+
+        return $this->userAnswer === $this->correctAnswer[0];
     }
 }

@@ -11,7 +11,6 @@ use Symfony\Component\Console\Question\ChoiceQuestion;
 
 class QuizRunner
 {
-
     public function runQuiz(Quiz $quiz, InputInterface $input, OutputInterface $output): void
     {
         $helper = $this->getQuestionHelper();

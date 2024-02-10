@@ -9,21 +9,21 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ResultPresenter
 {
     /**
-     * @param Result[] $resultData
+     * @param Result[] $results
      * @param OutputInterface $output
      * @return void
      */
-    public function displayResults(array $resultData, OutputInterface $output): void
+    public function displayResults(array $results, OutputInterface $output): void
     {
         $output->writeln('');
         $output->writeln('<info>Quiz Completed. Results:</info>');
         $output->writeln('<info>========================</info>');
         $output->writeln('');
 
-        foreach ($resultData as $index => $result) {
+        foreach ($results as $index => $result) {
             $output->writeln(sprintf('<fg=yellow>Question %d:</> %s', ($index + 1), $result->getQuestion()));
 
-            if ($result->isCorrect()) {
+            if ($result->isAnswerCorrect()) {
                 $output->writeln(sprintf(
                     "Your Answer: <fg=green>%s</>\n",
                     $this->formatAnswer($result->getUserAnswer()),

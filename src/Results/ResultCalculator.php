@@ -17,29 +17,15 @@ class ResultCalculator
         $results = [];
 
         foreach ($quiz->getQuestions() as $index => $question) {
-            $userAnswer = $quiz->getUserAnswers($index);
-            $correctAnswers = $question->getCorrectChoices();
-
             $results[] = new Result(
                 $question->getInquiry(),
-                $userAnswer,
-                $correctAnswers,
-                $this->isAnswerCorrect($userAnswer, $correctAnswers),
+                $quiz->getUserAnswers($index),
+                $question->getCorrectChoices(),
             );
         }
 
         return $results;
     }
 
-    private function isAnswerCorrect($userAnswer, array $correctAnswers): bool
-    {
-        if (is_array($userAnswer)) {
-            sort($userAnswer);
-            sort($correctAnswers);
 
-            return $userAnswer === $correctAnswers;
-        }
-
-        return $userAnswer === $correctAnswers[0];
-    }
 }
